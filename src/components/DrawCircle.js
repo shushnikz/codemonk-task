@@ -5,10 +5,10 @@ const DrawCircle = () => {
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        const ctx = canvas.getContext("2d");
+        // const ctx = canvas.getContext("2d");
 
-        const width = canvas.width;
-        const height = canvas.height;
+        // const width = canvas.width;
+        // const height = canvas.height;
 
         // add mouse event listeners
         canvas.addEventListener("mousemove", handleMouseMove);
